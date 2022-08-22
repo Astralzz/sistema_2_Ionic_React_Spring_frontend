@@ -1,0 +1,28 @@
+/*nth-child -> https://www.esthersola.com/nth-child-css-ejemplos-practicos/
+even -> Elemento par
+odd -> Elemento Impar
+*/
+
+/* Todas Las filas de la tabla*/
+.Tabla ion-row {
+  font-weight: lighter; /*Negrita*/
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 170%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*La primera fila de la tabla*/
+.Tabla ion-row:first-child {
+  font-weight: bold; /*Negrita*/
+  text-transform: uppercase; /*Letra mayúscula*/
+}
+
+/*Las filas pares*/
+.Tabla ion-row:nth-child(even) {
+  background-color: rgb(14, 41, 62);
+}
+/*Las filas impares*/
+.Tabla ion-row:nth-child(odd) {
+  background-color: rgb(0, 0, 0);
+}

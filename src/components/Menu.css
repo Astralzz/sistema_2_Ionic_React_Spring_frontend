@@ -17,7 +17,8 @@ ion-menu.md ion-note {
   margin-bottom: 30px;
 }
 
-ion-menu.md ion-list-header, ion-menu.md ion-note {
+ion-menu.md ion-list-header,
+ion-menu.md ion-note {
   padding-left: 10px;
 }
 
@@ -110,4 +111,16 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
-} 
+}
+
+ion-menu ion-list-header {
+  text-align: center;
+  align-items: center;
+}
+
+ion-menu ion-img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100px !important; 
+  max-height: 100px !important;
+}
